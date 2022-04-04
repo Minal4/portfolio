@@ -1,0 +1,6 @@
+@include media(mobile) {
+  .navbar-brand {
+    max-width: 100px;
+    display: block;
+  }
+}

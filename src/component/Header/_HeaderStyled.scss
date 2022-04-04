@@ -1,0 +1,68 @@
+.header__top {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    .custom-nav {
+      justify-content: flex-end;
+    }
+  }
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .vertical-text {
+    -webkit-transform: rotate(-90deg) translateY(-50%);
+    -moz-transform: rotate(-90deg) translateY(-50%);
+    -ms-transform: rotate(-90deg) translateY(-50%);
+    transform: rotate(-90deg) translateY(-50%);
+    transform-origin: 200px 80px;
+  }
+}
+
+#typed {
+  font-size: 4rem;
+}
+
+.hero-text {
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+}
+
+.scroller {
+  bottom: 40px;
+  left: 50%;
+  position: absolute;
+  animation: updown infinite 3s;
+  width: 20px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero {
+  &__content {
+    text-align: left;
+    color: map-get($theme-color, primary-color);
+    font-family: 'Montserrat', sans-serif;
+    h1 {
+      font-size: 64px;
+      font-weight: 700;
+      margin-bottom: 21px;
+    }
+  }
+}
