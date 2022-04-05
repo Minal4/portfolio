@@ -6,8 +6,16 @@
 
 @import '../src/component/Header/HeaderStyled';
 
-@import '../src/component/scss/mixin';
+@import '../src/component/pages/Faq/FaqStyled';
+
+@import '../src/component/pages/Portfolio/PortfolioStyled';
+
+@import '../src/component/pages/Contact/contactStyled';
+
+@import '../src/component/Footer/footerStyled';
 
 @import '../src/component/scss/Variables/colors';
+
+@import '../src/component/scss/mixin';
 
 @import '../src/component/scss/MediaQueries/media';

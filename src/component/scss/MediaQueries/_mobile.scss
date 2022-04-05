@@ -3,4 +3,13 @@
     max-width: 100px;
     display: block;
   }
+  .footer {
+    .social {
+      justify-content: flex-start;
+    }
+    .copyright-text {
+      margin-top: 0;
+      justify-content: flex-end;
+    }
+  }
 }

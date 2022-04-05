@@ -41,13 +41,13 @@ export const Header = () => {
                   <NavLink className="nav-item nav-link" to="/portfolio">
                     Portfolio
                   </NavLink>
-                  <NavLink className="nav-item nav-link" to="/">
+                  <NavLink className="nav-item nav-link" to="/aboutus">
                     About us
                   </NavLink>
-                  <NavLink className="nav-item nav-link" to="/">
+                  <NavLink className="nav-item nav-link" to="/services">
                     Services
                   </NavLink>
-                  <NavLink className="nav-item nav-link" to="/">
+                  <NavLink className="nav-item nav-link" to="/faq">
                     Faq
                   </NavLink>
                 </div>

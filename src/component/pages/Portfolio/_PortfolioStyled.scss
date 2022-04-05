@@ -1,0 +1,24 @@
+.portfolio {
+  .portfolio__content {
+    ul {
+      display: grid;
+      grid-template-columns: 3fr 3fr 3fr;
+      grid-gap: 10px;
+      li {
+        overflow: hidden;
+        a {
+          display: block;
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
+          img {
+            transition: 0.3s ease-in-out;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
